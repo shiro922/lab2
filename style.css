@@ -1,0 +1,145 @@
+body {
+    background-color: #c4d8e2;
+    font-size: 18px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-width: 800px;
+    align-self: center;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #d6dbe0;
+    height: 50px;
+    border: 1px solid #B5D1E8;
+}
+
+.main-head{
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.main-head img {
+    height: 40px;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    width: 800px;
+    margin: auto;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 0px;
+    text-indent: 20px;
+}
+ul{
+    margin: 10px;
+}
+
+.post-list{
+    margin: 0;
+    width: 600px;
+}
+
+.post{
+    margin-top: 20px;
+    background-color: #d6dbe0;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-align: justify;
+    border: 1px solid #B5D1E8;
+}
+
+#avatar{
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.main-menu{
+    box-sizing: border-box;
+    position: relative;
+    width: 30%;
+    height: min-content;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #B5D1E8;
+    background-color: #d6dbe0;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #03009f;
+}
+
+.main-menu a:hover{
+    color: #fff;
+}
+
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.site-theme{
+    display: none;
+    position: relative;
+    height: 300px;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 1px solid #B5D1E8;
+    background-color: #d6dbe0;
+}
+
+
+#table1{
+    border-collapse: collapse;
+    width: 100%;
+    height: 150px;
+}
+#table2{
+    border-collapse: collapse;
+    width: 200px;
+    height: 200px;
+}
+table td{
+    border: 2px solid black;
+}
+
+.goriz{
+    background-color: lightseagreen;
+}
+
+.vert{
+    background-color: lightyellow;
+}
+
+.form td:first-child{
+    border: 0;
+    border-collapse: collapse;
+    text-align: right;
+}
+
+.form td:last-child{
+    border: 0;
+    padding-left: 5px;
+    border-collapse: collapse;
+    text-align: left;
+}
